@@ -1,5 +1,10 @@
 .place__paragraph {
-  /* grid-area: paragraph; */
-
   color: white;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 26px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-style: normal;
 }
