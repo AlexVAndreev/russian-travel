@@ -31,3 +31,14 @@
 .cover:hover:before {
   opacity: 0.7;
 }
+
+@media (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}

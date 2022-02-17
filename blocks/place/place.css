@@ -12,3 +12,19 @@
 .place:nth-child(5) {
   padding-bottom: 0;
 }
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    grid-template-columns: 440px 456px;
+    grid-template-rows: 152px 440px;
+    gap: 48px 32px;
+  }
+}
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 92px max-content;
+    gap: 48px 28px;
+  }
+}

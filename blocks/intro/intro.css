@@ -7,3 +7,14 @@
   margin-left: 10%;
   max-width: 690px;
 }
+@media (max-width: 1024px) {
+  .intro {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: auto;
+  }
+}
