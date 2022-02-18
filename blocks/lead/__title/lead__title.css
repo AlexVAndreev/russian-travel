@@ -10,6 +10,11 @@
   text-align: center;
   font-weight: 900;
 }
+@media (max-width: 720px) {
+  .lead__title {
+    font-size: 10vw;
+  }
+}
 @media (max-width: 320px) {
   .lead__title {
     max-width: 320px;

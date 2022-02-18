@@ -11,6 +11,19 @@
     padding-top: 88px;
   }
 }
+
+@media (max-width: 540px) {
+  .footer {
+    align-self: start;
+    margin-left: 16px;
+    padding-top: 60px;
+    width: 186px;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, max-content) 30px;
+    row-gap: 30px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
     align-self: start;
