@@ -18,3 +18,9 @@
     margin: auto;
   }
 }
+@media (max-width: 320px) {
+  .intro {
+    padding-top: 64px;
+    max-width: 288px;
+  }
+}

@@ -24,3 +24,12 @@
     grid-template-rows: repeat(6, 1fr);
   }
 }
+@media (max-width: 320px) {
+  .photo-grid {
+    padding-top: 64px;
+    max-width: 288px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    row-gap: 12px;
+  }
+}

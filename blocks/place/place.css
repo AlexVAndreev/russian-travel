@@ -28,3 +28,17 @@
     gap: 48px 28px;
   }
 }
+@media (max-width: 320px) {
+  .place {
+    grid-template-columns: 288px;
+    grid-template-rows: max-content max-content 320px max-content;
+    grid-template-areas:
+      "title"
+      "website"
+      "image"
+      ".";
+    row-gap: 32px;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+}

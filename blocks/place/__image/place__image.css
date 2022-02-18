@@ -4,3 +4,9 @@
   align-self: start;
   object-fit: contain;
 }
+@media (max-width: 320px) {
+  .place__image {
+    width: 320px;
+    margin: -16px;
+  }
+}
