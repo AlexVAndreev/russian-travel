@@ -6,6 +6,10 @@
   font-size: 18px;
   font-style: normal;
   line-height: 1.1;
+  transition: opacity 0.3s linear;
+}
+.footer__link:hover {
+  opacity: 0.8;
 }
 @media (max-width: 768px) {
   .footer__link {
