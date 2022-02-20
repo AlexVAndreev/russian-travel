@@ -1,0 +1,19 @@
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  color: white;
+}
+
+@media (max-width: 540px) {
+  .footer__list {
+    align-self: start;
+    margin-left: 16px;
+    width: 186px;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, max-content);
+    row-gap: 30px;
+  }
+}
